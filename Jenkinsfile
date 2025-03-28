@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-repo/playwright-project.git'
+                git branch: 'main', url: 'https://github.com/11bce1098/Playwright_ReportPortal_Jenkins.git'
             }
         }
         stage('Install Dependencies') {
