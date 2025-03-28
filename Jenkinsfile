@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'WFD-WIN11TC-021' }
     tools { nodejs "NodeJS" }
     stages {
         stage('Checkout Code') {
